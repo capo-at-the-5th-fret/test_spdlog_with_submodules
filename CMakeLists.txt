@@ -10,5 +10,4 @@ add_executable(test_spdlog_with_submodules
     
 )
 
-target_compile_features(test_spdlog_with_submodules PUBLIC cxx_std_23)
 target_link_libraries(test_spdlog_with_submodules PUBLIC spdlog::spdlog)
